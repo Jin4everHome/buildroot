@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gbm
+Description: RM3288 gbm library
+Version: 17.1.8
+Libs: -L${libdir} -lgbm -lmali
+Cflags: -I${includedir}/
